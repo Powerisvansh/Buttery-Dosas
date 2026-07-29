@@ -1,0 +1,399 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Dosa & Podi — Panaji · Mapusa · Goa</title>
+  <meta name="description" content="Dosa & Podi. Authentic South Indian cafe in Goa. Benne dosa, filter coffee, Mangalore buns, banana leaf meals. Two locations in Panaji and Mapusa.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <header class="header" id="header">
+    <div class="header-inner container">
+      <a href="#" class="logo">
+        <svg class="logo-mark" width="28" height="28" viewBox="0 0 28 28" fill="none">
+          <circle cx="14" cy="14" r="13.5" stroke="currentColor"/>
+          <path d="M8 14a6 6 0 0112 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M10 14a4 4 0 018 0" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
+          <path d="M12.5 14a1.5 1.5 0 013 0" fill="currentColor"/>
+        </svg>
+        <span class="logo-text">Dosa &amp; Podi</span>
+      </a>
+      <nav class="nav" id="nav">
+        <a href="#menu" class="nav-link">Menu</a>
+        <a href="#locations" class="nav-link">Locations</a>
+        <a href="#story" class="nav-link">Story</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="https://www.google.com/maps/reserve/v/dine/c/I_LhB1EttGo" target="_blank" rel="noopener" class="btn btn--primary btn--sm">Reserve</a>
+      </nav>
+      <button class="hamburger" id="hamburger" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- HERO -->
+    <section class="hero" id="top">
+      <figure class="hero-bg">
+        <img src="https://images.unsplash.com/photo-1604908177522-4d6a0b3d32d6?q=80&w=2000&auto=format&fit=crop" alt="" loading="eager">
+        <div class="hero-overlay"></div>
+      </figure>
+      <div class="hero-content container">
+        <div class="hero-tag" data-reveal>South Indian Cafe · Goa</div>
+        <h1 class="hero-title" data-reveal data-reveal-delay="1">Buttery Dosas.<br><em>Crisp Vadas.</em><br>Filter Coffee.</h1>
+        <p class="hero-desc" data-reveal data-reveal-delay="2">Classic South Indian breakfast and all-day favourites, made with tradition and love. Two locations serving Panaji and Mapusa.</p>
+        <div class="hero-actions" data-reveal data-reveal-delay="3">
+          <a href="https://www.google.com/maps/reserve/v/dine/c/I_LhB1EttGo" target="_blank" rel="noopener" class="btn btn--primary">Reserve a table</a>
+          <a href="#menu" class="btn btn--outline">View menu</a>
+        </div>
+        <ul class="hero-meta" data-reveal data-reveal-delay="4">
+          <li>Open daily 8am – 10pm</li>
+          <li>₹200–400 per person</li>
+          <li>★ 4.4 (327 reviews)</li>
+        </ul>
+      </div>
+      <div class="hero-scroll" aria-hidden="true">
+        <span>Scroll</span>
+        <span class="hero-scroll-line"></span>
+      </div>
+    </section>
+
+    <!-- MENU -->
+    <section class="section menu" id="menu">
+      <div class="container">
+        <header class="section-header" data-reveal>
+          <span class="label">Our Menu</span>
+          <h2 class="section-title">Crafted with tradition,<br>served with pride</h2>
+        </header>
+
+        <div class="menu-tabs" data-reveal data-reveal-delay="1">
+          <button class="tab active" data-tab="dosas">Dosas</button>
+          <button class="tab" data-tab="idli-vada">Idli &amp; Vada</button>
+          <button class="tab" data-tab="specials">Specials</button>
+          <button class="tab" data-tab="drinks">Drinks</button>
+        </div>
+
+        <div class="menu-grid active" id="grid-dosas">
+          <article class="dish" data-reveal data-reveal-delay="1">
+            <span class="dish-badge">House special</span>
+            <h3 class="dish-name">Benne Masala Dosa</h3>
+            <p class="dish-desc">Ghee-crisp dosa with spiced potato filling, sambar &amp; three chutneys</p>
+            <span class="dish-price">₹180</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="2">
+            <h3 class="dish-name">Garlic Ghee Roast Masala Dosa</h3>
+            <p class="dish-desc">Roasted masala dosa finished with garlic-infused ghee &amp; podi</p>
+            <span class="dish-price">₹200</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="3">
+            <h3 class="dish-name">Plain Dosa</h3>
+            <p class="dish-desc">Classic crispy dosa with sambar &amp; coconut chutney</p>
+            <span class="dish-price">₹120</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="1">
+            <h3 class="dish-name">Ghee Podi Dosa</h3>
+            <p class="dish-desc">Topped with gunpowder podi and generous melted ghee</p>
+            <span class="dish-price">₹160</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="2">
+            <h3 class="dish-name">Mysore Masala Dosa</h3>
+            <p class="dish-desc">Red chutney spread, potato filling, crisp golden finish</p>
+            <span class="dish-price">₹190</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="3">
+            <h3 class="dish-name">Ragi Dosa</h3>
+            <p class="dish-desc">Finger millet dosa with sambar &amp; fresh chutney</p>
+            <span class="dish-price">₹150</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="1">
+            <h3 class="dish-name">Onion Rava Dosa</h3>
+            <p class="dish-desc">Crisp semolina dosa with onions, green chilies, curry leaves</p>
+            <span class="dish-price">₹170</span>
+          </article>
+          <article class="dish" data-reveal data-reveal-delay="2">
+            <h3 class="dish-name">Pesarattu</h3>
+            <p class="dish-desc">Green moong dosa with ginger chutney</p>
+            <span class="dish-price">₹160</span>
+          </article>
+        </div>
+
+        <div class="menu-grid" id="grid-idli-vada">
+          <article class="dish">
+            <span class="dish-badge">Popular</span>
+            <h3 class="dish-name">Tatte Idli</h3>
+            <p class="dish-desc">Soft plate idli with sambar &amp; coconut chutney</p>
+            <span class="dish-price">₹130</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Ghee Podi Idli</h3>
+            <p class="dish-desc">Steamed idli tossed in podi and melted ghee</p>
+            <span class="dish-price">₹140</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Medu Vada</h3>
+            <p class="dish-desc">Crisp lentil donuts with coconut chutney &amp; sambar</p>
+            <span class="dish-price">₹110</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Vada Sambar</h3>
+            <p class="dish-desc">Medu vada dunked in hot sambar</p>
+            <span class="dish-price">₹120</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Mangalore Buns</h3>
+            <p class="dish-desc">Sweet banana puri with coconut chutney</p>
+            <span class="dish-price">₹140</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Idli (3 pcs)</h3>
+            <p class="dish-desc">Steamed rice idli with sambar &amp; chutney</p>
+            <span class="dish-price">₹90</span>
+          </article>
+        </div>
+
+        <div class="menu-grid" id="grid-specials">
+          <article class="dish">
+            <span class="dish-badge">Must try</span>
+            <h3 class="dish-name">Banana Leaf Meal</h3>
+            <p class="dish-desc">Rice, sambar, rasam, poriyal, kootu, papad, payasam</p>
+            <span class="dish-price">₹250</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Poori Chana Masala</h3>
+            <p class="dish-desc">Fluffy poori with spicy chana masala</p>
+            <span class="dish-price">₹150</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Upma</h3>
+            <p class="dish-desc">Roasted semolina with mustard, curry leaves, peanuts</p>
+            <span class="dish-price">₹110</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Pongal</h3>
+            <p class="dish-desc">Rice &amp; lentil khichdi with ghee, cashew, pepper</p>
+            <span class="dish-price">₹130</span>
+          </article>
+          <article class="dish">
+            <span class="dish-badge">Signature</span>
+            <h3 class="dish-name">Filter Coffee Softy</h3>
+            <p class="dish-desc">Soft-serve made with real filter coffee</p>
+            <span class="dish-price">₹90</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Mango Swirl Softy</h3>
+            <p class="dish-desc">Seasonal mango soft-serve</p>
+            <span class="dish-price">₹100</span>
+          </article>
+        </div>
+
+        <div class="menu-grid" id="grid-drinks">
+          <article class="dish">
+            <span class="dish-badge">Signature</span>
+            <h3 class="dish-name">Filter Coffee</h3>
+            <p class="dish-desc">Traditional South Indian filter coffee, strong &amp; frothy</p>
+            <span class="dish-price">₹70</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Masala Chai</h3>
+            <p class="dish-desc">Spiced tea with ginger, cardamom, cinnamon</p>
+            <span class="dish-price">₹50</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Neer Mor</h3>
+            <p class="dish-desc">Spiced buttermilk with ginger &amp; coriander</p>
+            <span class="dish-price">₹50</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Fresh Lime Soda</h3>
+            <p class="dish-desc">Sweet, salted, or mint</p>
+            <span class="dish-price">₹60</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Lassi</h3>
+            <p class="dish-desc">Sweet, salted, or mango</p>
+            <span class="dish-price">₹80</span>
+          </article>
+          <article class="dish">
+            <h3 class="dish-name">Tender Coconut Water</h3>
+            <p class="dish-desc">Chilled, straight from the shell</p>
+            <span class="dish-price">₹60</span>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- IMAGE BREAK -->
+    <div class="image-break">
+      <figure class="image-break-figure">
+        <img src="https://images.unsplash.com/photo-1589301760014-d929f3979dbc?q=80&w=2000&auto=format&fit=crop" alt="Filter coffee being poured" loading="lazy">
+      </figure>
+    </div>
+
+    <!-- STORY -->
+    <section class="section story" id="story">
+      <div class="container story-grid">
+        <div class="story-text" data-reveal>
+          <span class="label">Our Story</span>
+          <h2 class="section-title">Southern flavours,<br>Goan spirit</h2>
+          <p>Dosa &amp; Podi brings the authentic tastes of South India to Goa. Every dish — from our crisp benne dosas to soft tatte idlis — follows traditional recipes made with the freshest ingredients.</p>
+          <p>Our name comes from two things we love: the perfect <em>dosa</em> — golden, buttery, crisp — and <em>podi</em>, the aromatic gunpowder spice blend that makes everything better. Whether you're stopping for a quick breakfast or a leisurely banana leaf meal, you're welcome here.</p>
+          <div class="story-stats">
+            <div class="stat">
+              <span class="stat-num">2024</span>
+              <span class="stat-label">Opened</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">4.4★</span>
+              <span class="stat-label">Rating</span>
+            </div>
+            <div class="stat">
+              <span class="stat-num">2</span>
+              <span class="stat-label">Locations</span>
+            </div>
+          </div>
+        </div>
+        <figure class="story-image" data-reveal data-reveal-delay="1">
+          <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=900&auto=format&fit=crop" alt="Restaurant interior" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- LOCATIONS -->
+    <section class="section locations" id="locations">
+      <div class="container">
+        <header class="section-header" data-reveal>
+          <span class="label">Visit Us</span>
+          <h2 class="section-title">Two locations in Goa</h2>
+        </header>
+        <div class="locations-grid">
+          <div class="loc" data-reveal>
+            <div class="loc-head">
+              <h3 class="loc-title">Panaji</h3>
+              <span class="loc-status">Open now</span>
+            </div>
+            <address class="loc-addr">Rebelo Building, opp. Cafe Bhonsle, Panaji, Goa 403001</address>
+            <div class="loc-hours">Daily · 8am – 10pm</div>
+            <div class="loc-actions">
+              <a href="https://maps.google.com/maps?q=Dosa+And+Podi+Panaji+Goa" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Directions</a>
+              <a href="https://www.google.com/maps/reserve/v/dine/c/I_LhB1EttGo" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Reserve</a>
+            </div>
+            <div class="loc-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.3581479013106!2d73.8273782!3d15.4998229!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bbfc19c18efa409%3A0xf07c819cdb342c9!2sDosa%20And%20Podi!5e0!3m2!1sen!2sin" loading="lazy" title="Map of Dosa &amp; Podi Panaji"></iframe>
+            </div>
+          </div>
+          <div class="loc" data-reveal data-reveal-delay="1">
+            <div class="loc-head">
+              <h3 class="loc-title">Mapusa</h3>
+              <span class="loc-status">Open now</span>
+            </div>
+            <address class="loc-addr">Near Vodafone Gallery, Angod, Mapusa, North Goa</address>
+            <div class="loc-hours">Daily · 8am – 10pm</div>
+            <div class="loc-actions">
+              <a href="https://maps.google.com/maps?q=Dosa+And+Podi+Mapusa+Goa" target="_blank" rel="noopener" class="btn btn--outline btn--sm">Directions</a>
+              <a href="https://www.google.com/maps/reserve/v/dine/c/I_LhB1EttGo" target="_blank" rel="noopener" class="btn btn--ghost btn--sm">Reserve</a>
+            </div>
+            <div class="loc-map">
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3846.0!2d73.815!3d15.5!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMTXCsDMwJzAwLjAiTiA3M8KwNDknMDkuMCJF!5e0!3m2!1sen!2sin" loading="lazy" title="Map of Dosa &amp; Podi Mapusa"></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- REVIEWS -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <header class="section-header" data-reveal>
+          <span class="label">Reviews</span>
+          <h2 class="section-title">What people say</h2>
+        </header>
+        <div class="reviews-track" id="reviewsTrack">
+          <blockquote class="review" data-reveal>
+            <span class="review-stars">★★★★★</span>
+            <p class="review-text">"Great spot for South Indian food lovers! The benne dosa is a must-try — perfectly crispy and the chutneys are fantastic."</p>
+            <footer class="review-author">— Local visitor</footer>
+          </blockquote>
+          <blockquote class="review" data-reveal data-reveal-delay="1">
+            <span class="review-stars">★★★★★</span>
+            <p class="review-text">"Loved the vibe — dosas are yum and the filter coffee is outstanding. Best South Indian breakfast in Panjim!"</p>
+            <footer class="review-author">— Guest from Mumbai</footer>
+          </blockquote>
+          <blockquote class="review" data-reveal data-reveal-delay="2">
+            <span class="review-stars">★★★★★</span>
+            <p class="review-text">"Had a great breakfast experience. Benne dosa + mango swirl softy = perfect morning."</p>
+            <footer class="review-author">— Visitor</footer>
+          </blockquote>
+          <blockquote class="review" data-reveal data-reveal-delay="1">
+            <span class="review-stars">★★★★☆</span>
+            <p class="review-text">"Authentic South Indian food in Panjim. The ghee podi idli is addictive! Great prices too."</p>
+            <footer class="review-author">— Foodie from Delhi</footer>
+          </blockquote>
+          <blockquote class="review" data-reveal data-reveal-delay="2">
+            <span class="review-stars">★★★★★</span>
+            <p class="review-text">"Tried the banana leaf meal — incredible value and so delicious. True homestyle cooking."</p>
+            <footer class="review-author">— Tourist from UK</footer>
+          </blockquote>
+          <blockquote class="review" data-reveal data-reveal-delay="3">
+            <span class="review-stars">★★★★★</span>
+            <p class="review-text">"The filter coffee softy is genius. Best thing to beat Goa's heat."</p>
+            <footer class="review-author">— Regular customer</footer>
+          </blockquote>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA -->
+    <section class="cta">
+      <div class="container cta-inner" data-reveal>
+        <h2 class="cta-title">Ready for the best dosa in Goa?</h2>
+        <p class="cta-desc">Reserve a table or order online. We can't wait to serve you.</p>
+        <div class="cta-actions">
+          <a href="https://www.google.com/maps/reserve/v/dine/c/I_LhB1EttGo" target="_blank" rel="noopener" class="btn btn--primary btn--lg">Reserve a table</a>
+          <a href="https://www.swiggy.com/city/central-goa/dosa-and-podi-panaji-rest1248087" target="_blank" rel="noopener" class="btn btn--outline btn--lg">Order on Swiggy</a>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3 class="footer-logo">Dosa &amp; Podi</h3>
+        <p>Authentic South Indian cafe in Goa. Serving tradition on a plate.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Navigate</h4>
+        <a href="#menu">Menu</a>
+        <a href="#locations">Locations</a>
+        <a href="#story">Story</a>
+        <a href="#reviews">Reviews</a>
+      </div>
+      <div class="footer-col">
+        <h4>Hours</h4>
+        <p>Mon – Sun</p>
+        <p>8:00 AM – 10:00 PM</p>
+      </div>
+      <div class="footer-col">
+        <h4>Follow</h4>
+        <a href="https://instagram.com" target="_blank" rel="noopener">Instagram</a>
+        <a href="https://facebook.com" target="_blank" rel="noopener">Facebook</a>
+        <a href="https://www.google.com/maps?q=Dosa+And+Podi+Panaji+Goa" target="_blank" rel="noopener">Google Maps</a>
+      </div>
+    </div>
+    <div class="container footer-legal">
+      <p>&copy; Dosa &amp; Podi — Panaji &amp; Mapusa, Goa</p>
+    </div>
+  </footer>
+
+  <a href="#top" class="top" id="topBtn" aria-label="Back to top">↑</a>
+
+  <script src="js/app.js"></script>
+</body>
+</html>
