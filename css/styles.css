@@ -662,40 +662,40 @@ a { color: inherit; text-decoration: none; }
   .logo-mark { width: 24px; height: 24px; }
 
   .hero { min-height: 85vh; }
-  .hero-content { padding: 48px 14px 40px; }
-  .hero-tag { font-size: 0.58rem; margin-bottom: 6px; }
-  .hero-title { font-size: 1.4rem; margin-bottom: 8px; }
-  .hero-desc { font-size: 0.8rem; margin-bottom: 14px; }
-  .hero-meta { font-size: 0.6rem; gap: 8px; margin-top: 14px; }
+  .hero-content { padding: 60px 14px 40px; }
+  .hero-tag { font-size: 0.7rem; margin-bottom: 6px; }
+  .hero-title { font-size: 1.6rem; margin-bottom: 10px; }
+  .hero-desc { font-size: 0.88rem; margin-bottom: 16px; }
+  .hero-meta { font-size: 0.72rem; gap: 10px; margin-top: 14px; }
   .hero-scroll { display: none; }
-  .btn--lg { padding: 10px 20px; font-size: 0.8rem; }
+  .btn--lg { padding: 12px 22px; font-size: 0.85rem; }
 
   .menu-tabs { gap: 4px; }
-  .tab { font-size: 0.7rem; padding: 6px 12px; }
-  .dish { padding: 14px; }
-  .dish-name { font-size: 0.92rem; padding-right: 50px; }
-  .dish-desc { font-size: 0.76rem; }
-  .dish-badge { font-size: 0.55rem; padding: 3px 8px; top: 10px; right: 10px; }
-  .dish-price { font-size: 0.78rem; margin-top: 10px; padding-top: 10px; }
+  .tab { font-size: 0.78rem; padding: 7px 14px; }
+  .dish { padding: 16px; }
+  .dish-name { font-size: 1rem; padding-right: 50px; }
+  .dish-desc { font-size: 0.82rem; }
+  .dish-badge { font-size: 0.6rem; padding: 3px 8px; top: 10px; right: 10px; }
+  .dish-price { font-size: 0.85rem; margin-top: 10px; padding-top: 10px; }
 
-  .review { min-width: 230px; padding: 16px; }
-  .review-text { font-size: 0.8rem; }
-  .review-stars { font-size: 0.75rem; }
+  .review { min-width: 250px; padding: 18px; }
+  .review-text { font-size: 0.85rem; }
+  .review-stars { font-size: 0.8rem; }
 
   .cta { padding: 64px 0; }
-  .cta-title { font-size: 1.3rem; }
-  .cta-desc { font-size: 0.82rem; }
+  .cta-title { font-size: 1.4rem; }
+  .cta-desc { font-size: 0.88rem; }
 
   .story-stats { grid-template-columns: 1fr; gap: 8px; }
   .stat { padding: 12px; }
 
-  .loc-head { padding: 14px 14px 0; }
-  .loc-title { font-size: 1rem; }
-  .loc-addr { font-size: 0.78rem; padding: 4px 14px 0; }
-  .loc-hours { font-size: 0.65rem; padding: 2px 14px 0; }
-  .loc-actions { padding: 8px 14px; }
-  .loc-map { height: 150px; }
-  .btn--sm { padding: 6px 14px; font-size: 0.72rem; }
+  .loc-head { padding: 16px 16px 0; }
+  .loc-title { font-size: 1.1rem; }
+  .loc-addr { font-size: 0.82rem; padding: 6px 16px 0; }
+  .loc-hours { font-size: 0.72rem; padding: 4px 16px 0; }
+  .loc-actions { padding: 10px 16px; }
+  .loc-map { height: 160px; }
+  .btn--sm { padding: 8px 16px; font-size: 0.78rem; }
 
   .footer { padding: 40px 0 20px; }
 
@@ -708,19 +708,19 @@ a { color: inherit; text-decoration: none; }
   .section { padding: 48px 0; }
   .section-header { margin-bottom: 32px; }
 
-  .hero { min-height: 88vh; }
-  .hero-content { padding: 56px 18px 40px; }
-  .hero-title { font-size: 1.6rem; margin-bottom: 10px; }
-  .hero-desc { font-size: 0.82rem; margin-bottom: 14px; }
-  .hero-meta { font-size: 0.62rem; gap: 10px; margin-top: 14px; }
+  .hero-content { padding: 64px 18px 40px; }
+  .hero-tag { font-size: 0.74rem; margin-bottom: 6px; }
+  .hero-title { font-size: 1.9rem; margin-bottom: 12px; }
+  .hero-desc { font-size: 0.9rem; margin-bottom: 16px; }
+  .hero-meta { font-size: 0.74rem; gap: 12px; margin-top: 16px; }
   .hero-scroll { display: none; }
 
   .menu-grid { grid-template-columns: 1fr; }
-  .menu-tabs { gap: 4px; flex-wrap: wrap; }
-  .tab { font-size: 0.72rem; padding: 6px 14px; }
-  .dish { padding: 16px; }
-  .dish-name { font-size: 0.95rem; }
-  .dish-desc { font-size: 0.78rem; }
+  .menu-tabs { gap: 6px; flex-wrap: wrap; }
+  .tab { font-size: 0.8rem; padding: 8px 16px; }
+  .dish { padding: 18px; }
+  .dish-name { font-size: 1.05rem; }
+  .dish-desc { font-size: 0.84rem; }
 
   .review { min-width: 250px; }
   .cta { padding: 80px 0; }
