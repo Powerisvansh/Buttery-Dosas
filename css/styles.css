@@ -190,7 +190,7 @@ a { color: inherit; text-decoration: none; }
 .hero-content {
   position: relative; z-index: 2;
   max-width: 640px;
-  padding: 52px 24px 60px;
+  padding: 44px 24px 60px;
 }
 .hero-tag {
   font-family: var(--font-mono);
@@ -660,7 +660,7 @@ a { color: inherit; text-decoration: none; }
   .logo-mark { width: 24px; height: 24px; }
 
   .hero { min-height: 85vh; }
-  .hero-content { padding: 64px 14px 44px; }
+  .hero-content { padding: 44px 14px 44px; }
   .hero-tag { font-size: 0.75rem; margin-bottom: 8px; }
   .hero-title { font-size: 1.8rem; margin-bottom: 12px; }
   .hero-desc { font-size: 0.95rem; margin-bottom: 18px; }
@@ -706,7 +706,7 @@ a { color: inherit; text-decoration: none; }
   .section { padding: 48px 0; }
   .section-header { margin-bottom: 32px; }
 
-  .hero-content { padding: 68px 18px 48px; }
+  .hero-content { padding: 48px 18px 48px; }
   .hero-tag { font-size: 0.8rem; margin-bottom: 8px; }
   .hero-title { font-size: 2.1rem; margin-bottom: 14px; }
   .hero-desc { font-size: 1rem; margin-bottom: 18px; }
@@ -733,7 +733,7 @@ a { color: inherit; text-decoration: none; }
 
 /* phablets / small tablets */
 @media (min-width: 641px) and (max-width: 899px) {
-  .hero-content { padding: 64px 24px 54px; }
+  .hero-content { padding: 48px 24px 54px; }
   .hero-title { font-size: 2.4rem; margin-bottom: 14px; }
   .hero-meta li + li { padding-left: 14px; }
   .hero-meta li + li::before { left: 2px; }
